@@ -1,0 +1,27 @@
+.select {
+    position: relative;
+    background-color: red;
+
+    &.is-open {
+        .select__body {
+            display: block;
+        }
+    }
+
+    &__header {
+        cursor: pointer;
+    }
+
+    &__body {
+        display: none;
+        left: 0;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: green;
+    }
+
+    &__item {
+        cursor: pointer;
+    }
+}
