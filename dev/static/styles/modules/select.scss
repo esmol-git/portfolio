@@ -1,0 +1,146 @@
+.select {
+  display: block;
+  width: 100%;
+  position: relative;
+  max-width: 339px;
+  height: 46px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(63, 51, 86, 0.15);
+  border-radius: 6px;
+
+  font-family: DIN Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+
+
+  color: #3F3356;
+}
+
+.new-select {
+  border: 1px solid #ced4da;
+  padding: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.new-select__list {
+  border: 1px solid #ced4da;
+  cursor: pointer;
+  position: absolute;
+  top: 61px;
+  left: 0;
+  max-height: 204px;
+  max-width: 339px;
+  width: 100%;
+  overflow: auto;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(63, 51, 86, 0.15);
+  border-radius: 8px;
+  color: #D0C9D6;
+  padding: 10px 25px;
+  z-index: 99;
+}
+
+.new-select__list.on {
+  display: block;
+  color: $lilac;
+  font-weight: 500;
+}
+
+.new-select__item span {
+  display: block;
+  padding: 15px 0;
+}
+
+.new-select__item span:hover {
+  color: $lilac;
+}
+
+.new-select:after {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid $lilac;
+  border-width: 2px 0 0 2px;
+  position: absolute;
+  right: 18px;
+  top: 40%;
+  fill: $main-color;
+  opacity: 0.6;
+  transform: rotate(-135deg) translate(50%);
+  z-index: 9;
+}
+
+.new-select.on:after {
+  transform: rotate(45deg) translateY(40%);
+}
+
+/* Checkbox */
+// .checkbox {
+//   position: relative;
+//   margin-bottom: 1rem;
+// }
+
+// .checkbox__input {
+//   -webkit-appearance: none;
+//   appearance: none;
+//   position: absolute;
+// }
+
+// .checkbox__label {
+//   padding-left: 25px;
+
+//   font-size: 1rem;
+//   color: #444;
+//   cursor: pointer;
+// }
+
+// .checkbox__label:before {
+//   content: "";
+//   display: block;
+//   width: 16px;
+//   height: 16px;
+
+//   border: 1px solid #ccc;
+//   background-color: #fff;
+//   border-radius: 3px;
+
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   z-index: 1;
+
+//   transition: background .1s linear, border .1s linear;
+// }
+
+// .checkbox__label:after {
+//   content: "";
+//   display: block;
+//   width: 12px;
+//   height: 12px;
+
+//   background: url("check.svg") no-repeat;
+//   background-size: 12px 12px;
+//   opacity: 0;
+
+//   position: absolute;
+//   top: 3px;
+//   left: 3px;
+//   z-index: 2;
+
+//   transition: opacity .1s linear;
+// }
+
+// .checkbox__input:checked+.checkbox__label:before {
+//   background-color: #49d120;
+//   border-color: #319612;
+// }
+
+// .checkbox__input:checked+.checkbox__label:after {
+//   opacity: 1;
+// }

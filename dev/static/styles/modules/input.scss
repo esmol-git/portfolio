@@ -1,0 +1,20 @@
+.input {
+    background: #FFFFFF;
+    box-shadow: inset 0px 2px 6px rgba(63, 51, 86, 0.2);
+    border-radius: 8px;
+    padding: 12px;
+    box-sizing: border-box;
+    width: 300px;
+
+    color: #3F3356;
+    font-size: 16px;
+    line-height: 16px;
+
+    &::placeholder {
+        font-size: 16px;
+        line-height: 16px;
+        color: #D0C9D6;
+    }
+
+
+}

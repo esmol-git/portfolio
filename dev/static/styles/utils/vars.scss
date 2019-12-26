@@ -1,9 +1,17 @@
 // Colors
-$white: #ffffff;
+$white: #FCFCFC;
 $black: #000000;
+$main-color: #61587C;
+$lilac: #3F3356;
+$sea: #32728F;
+$red: #A73C51;
+$night: #535352;
 
 // Sizes
 $base-font-size: 16px;
+$line-height: 24px;
+
+$box-shadow: inset 0px 2px 6px rgba(63, 51, 86, 0.2);
 
 $breakpoints: ("phone" : 400px,
   "phone-wide" : 480px,
@@ -14,6 +22,8 @@ $breakpoints: ("phone" : 400px,
   "desktop" : 1248px,
   "desktop-wide": 1440px);
 
-$content-size: 1024px;
+$content-size: 1280px;
 
 // Fonts
+$font-family: 'DINPro',
+sans-serif

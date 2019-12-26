@@ -23,11 +23,11 @@ $('.select').each(function () {
   const selectList = selectHead.next('.new-select__list');
   for (let i = 1; i < selectOptionLength; i++) {
     $('<div>', {
-        class: 'new-select__item',
-        html: $('<span>', {
-          text: selectOption.eq(i).text()
-        })
+      class: 'new-select__item',
+      html: $('<span>', {
+        text: selectOption.eq(i).text()
       })
+    })
       .attr('data-value', selectOption.eq(i).val())
       .appendTo(selectList);
   }
