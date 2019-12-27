@@ -1,7 +1,7 @@
 $(document).ready(function () {
   svg4everybody({});
-
 });
+
 $('.select').each(function () {
   const _this = $(this),
     selectOption = _this.find('option'),

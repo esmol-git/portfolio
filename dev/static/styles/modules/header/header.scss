@@ -2,7 +2,29 @@ header {
     flex: 0 0 auto;
 }
 
-.header {}
+.header {
+    &__patterns {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 300px;
+        height: 300px;
+        z-index: 99;
+    }
+
+    &__pattern {
+        width: 15px;
+        height: 15px;
+        background: #61587C;
+
+        &:nth-child(1) {
+            right: 0;
+            bottom: 0;
+            background-color: #fff;
+        }
+
+    }
+}
 
 .nav {
     background: #61587C;
@@ -19,4 +41,5 @@ header {
         align-items: center;
         position: relative;
     }
+
 }

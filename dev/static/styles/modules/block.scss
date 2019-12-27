@@ -1,0 +1,50 @@
+.block {
+    box-shadow: 0px 2px 6px rgba(63, 51, 86, 0.15);
+    width: 570px;
+    padding: 30px 58px 35px;
+    display: flex;
+    flex-direction: column;
+
+    &--center {
+        align-items: center;
+    }
+
+    &__politic {
+        min-height: 40px;
+        background: url('../images/content/pdf.svg') left no-repeat;
+        padding-left: 52px;
+        margin-bottom: 25px;
+
+        a {
+            text-decoration: underline;
+            line-height: 24px;
+            color: #32728F;
+        }
+
+
+        &:hover {
+            color: #32728F
+        }
+    }
+
+    .btn {
+        display: block;
+        border-radius: 0;
+        margin: 25px auto 0;
+    }
+}
+
+.popup {
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    background: #61587C;
+    box-shadow: 0px 1px 4px rgba(63, 51, 86, 0.15);
+    border-radius: 6px;
+    position: absolute;
+    right: 75px;
+    top: -13px;
+}

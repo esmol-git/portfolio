@@ -1,10 +1,10 @@
 .input {
     background: #FFFFFF;
     box-shadow: inset 0px 2px 6px rgba(63, 51, 86, 0.2);
-    border-radius: 8px;
     padding: 12px;
     box-sizing: border-box;
-    width: 300px;
+    width: 310px;
+    border: none;
 
     color: #3F3356;
     font-size: 16px;
@@ -17,4 +17,12 @@
     }
 
 
+}
+
+.label {
+    width: 100%;
+    padding-left: 85px;
+    font-size: 15px;
+    line-height: 15px;
+    color: #3F3356;
 }

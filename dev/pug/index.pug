@@ -5,4 +5,43 @@ block variables
 	- var title = 'Авторизация партнера'
 	- var currentURL = 'index.html'
 block content
-	
+	section.section
+		.container
+			.wrap
+				select.select#sel(name='select')
+					option(disabled='') Выберите из списка
+					option(value='Дистрибьютор') Дистрибьютор
+					option(value='Розничная точка') Розничная точка
+					option(value='Интернет-магазин') Интернет-магазин
+					option(value='Магазин DI') Магазин DIY
+				.block.mt-40
+					.block__politic 
+						a(href="") Политика авторизации партнёров дистрибьюторской<br>сети ООО «Легран» по продукции серий with Netatmoa
+					label.checkbox.block__checkbox.ml-55
+						span.checkbox__text С условиям политики авторизации партнёров<br>ознакомлен и принимаю
+						input(type="checkbox")
+						span.checkbox__custom
+				.block.mt-25
+					.block__politic 
+						a(href="") Политика по предоставлению персональных данных
+					label.checkbox.block__checkbox.ml-55
+						span.checkbox__text Согласен на обработку персональных данных
+						input(type="checkbox")
+						span.checkbox__custom
+				.block.mt-60
+					.radio
+						input#radio_1.radio__input(name='male' type='radio')
+						label.radio__label(for='radio_1') Регистрация по номеру OrgID организации
+						span.popup ?
+					.radio
+						input#radio_2.radio__input(name='male' type='radio')
+						label.radio__label(for='radio_2') Регистрация без индивидуального номера организации
+					button.btn ПРОДОЛЖИТЬ
+				.block.block--center.mt-60
+					label.label(for="input_1") Название компании
+					input.input.mb-30#input_1(type="text" placeholder="Введите текст...")
+					label.label(for="input_2") ФИО
+					input.input.mb-30#input_2(type="text" placeholder="Введите текст...")
+					label.label(for="input_3") E-mail
+					input.input.mb-30#input_3(type="text" placeholder="Введите текст...")
+					button.btn.mt-25 ПРОДОЛЖИТЬ

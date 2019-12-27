@@ -112,8 +112,44 @@ button {
   width: 100%;
 }
 
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
 
+.section {
+  padding-top: 45px;
+  margin-bottom: 120px;
+}
 
+.mt-25 {
+  margin-top: 25px;
+}
 
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.ml-55 {
+  margin-left: 55px;
+}
+
+.pl-80 {
+  padding-left: 80px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+tal{
+  text-align-last: left;
+}
 //Модули
 @import "modules/modules";
